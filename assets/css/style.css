@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%,
+}
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+}
+
+div {
+    background-color: rgb(135, 183, 178);
+    background-image: url("../img/site_bcg.avif");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(45, 102, 94, 0.668);
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 228, 196, 0.911);
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: bisque;
+}
